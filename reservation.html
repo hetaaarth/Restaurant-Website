@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="icon" href="/images/favicon.png">
+    <style>
+        body {
+            background-image: url(/images/background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        h1 {
+            color: aliceblue;
+        }
+        legend {
+            color: aliceblue;
+            font-size: 30px;
+        }
+        .label {
+            color: aliceblue;
+            font-size: large;
+        }
+        p {
+            color: aliceblue;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enter your Details</h1>
+
+    <form action="https://google.com" autocomplete="on" method="get" target="_blank">
+    <fieldset>
+        <legend>Details</legend>
+
+        <label class="label" for="fname">FirstName :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label class="label" for="lname">LastName :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label class="label" for="number">Contact Number :&nbsp;&nbsp;</label>
+        <input type="text" id="number" name="Contact"><br><br>
+
+        <label class="label" for="person">Number of People :</label>
+        <input type="text" id="number" name="People" size="1" maxlength="2"><br><br>
+
+        <label class="label" for="time">Time for reservation</label>
+        <input type="time" name="time"><br><br>
+
+        <input type="submit" formaction="https://thumbs.dreamstime.com/b/waiter-setting-reserved-sign-restaurant-table-136128591.jpg" value="Reserve" style="font-size: large;">
+        <p><strong>NOTE:</strong>Your reservation might get cancelled if you are late than 15 minutes of reserved time.</p>
+    </fieldset>
+    </form>
+</body>
+</html>
